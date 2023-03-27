@@ -12,12 +12,12 @@ class MyDocument extends Document {
           <link rel="preconnect" href={`//${hostname}`} crossOrigin="true" />
           <link rel="dns-prefetch" href={`//${hostname}`} />
           <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+            href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap"
             rel="stylesheet"
           />
         </Head>
         <body>
-          <Main />
+          <Main/>
           <NextScript />
         </body>
       </Html>
